@@ -1,0 +1,33 @@
+{
+    "name": "viol/fusion",
+    "description": "The Fusion php framework.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "winter-sleep",
+            "email": "icyo_dec@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "psr/container": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Viol\\Fusion\\": "Fusion"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
